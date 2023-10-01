@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="spotify.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i> 
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <i class="fa-solid fa-list"></i>
+                        <a href="#">Your Library</a>
+                    </div>
+                     <div class="icons">
+                         <i class="fa-solid fa-plus"></i>
+                         <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icon">
+                    <i class="fa-solid fa-angle-left"></i>
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+            <div class="sticky-nav-option">
+                <button class="badge nav-item hide">Explore Premium</button>
+                <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install App</button>
+                <i class="fa-regular fa-bell nav-item"></i>
+                <i class="fa-regular fa-user nav-item"></i>
+            </div>
+        </div>
+            <h2>Recently Played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img class="card-img" src="https://i.scdn.co/image/ab67616d00001e0215cedcbabd6c3184d4fdbaad">
+                    <p class="card-tittle">Wedding</p>
+                    <p class="card-info">Muhammad Al Muqit</p>
+                </div>
+                <div class="card">
+                    <img class="card-img" src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_default.jpg">
+                    <p class="card-tittle">Top 50 - Gobal</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+            </div>
+
+            <h2>Trending now near you</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img class="card-img" src="https://i.scdn.co/image/ab67616d00001e0233fc662a8b9c6b7a52e69511">
+                    <p class="card-tittle">The Way of the Tears</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+                <div class="card">
+                    <img class="card-img" src="https://i.scdn.co/image/ab67616d00001e02690fbd5606d3cd5ed3e3318b">
+                    <p class="card-tittle">Muhammad Nabina</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+                <div class="card">
+                    <img class="card-img" src="https://i.scdn.co/image/ab67616d00001e02c75ad22e83748294b75c5aea">
+                    <p class="card-tittle">Kun anta (كن أنت)</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+                <div class="card">
+                    <img class="card-img" src="https://i.scdn.co/image/ab67616d00001e02453530d256afb603c34eedb7">
+                    <p class="card-tittle">Qamarun</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+                <div class="card">
+                    <img class="card-img" src="https://i.scdn.co/image/ab67616d00001e02e7a7f2b8cbf1741e64b06c3f">
+                    <p class="card-tittle">Rahmatun Lil'Alameen</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+            </div>
+            <h2>Featured Charts</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img class="card-img" src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg">
+                    <p class="card-tittle">Top Songs - Gobal</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+                <div class="card">
+                    <img class="card-img" src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_in_default.jpg">
+                    <p class="card-tittle">Top Songs - India</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+                <div class="card">
+                    <img class="card-img" src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_in_default.jpg">
+                    <p class="card-tittle">Top 50 - India</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="album"></div>
+            <div class="player">
+                <div class="player-control">
+                    <i class="fa-solid fa-shuffle player-control-icons"></i>
+                    <i class="fa-solid fa-backward-step player-control-icons"></i>
+                    <i class="fa-solid fa-play player-control-icons"></i>
+                    <i class="fa-solid fa-forward-step player-control-icons"></i>
+                    <i class="fa-solid fa-repeat player-control-icons"></i>
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" step="1" class="progress-bar">
+                    <span class="tot-bar">03:33</span>
+                </div>
+            </div>
+            <div class="controls"></div>
+        </div>
+    </div>
+</body>
+</html>
